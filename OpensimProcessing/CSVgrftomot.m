@@ -1,6 +1,6 @@
 function [  ] = CSVgrftomot( patient, path, trial )
 %Converts .csv grf data to Opensim .mot file with appropriate format.
-%Based on Vicon to Opensim code.
+%Based on Vicon to Opensim code. 
 name =[patient '_' trial];
 
 forcedata_folder= [path patient '/ForceData/'];
