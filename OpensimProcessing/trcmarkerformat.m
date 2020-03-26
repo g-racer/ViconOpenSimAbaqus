@@ -1,4 +1,4 @@
-function [  ] = trcmarkerformat( patient, path, trial )
+function [  ] = trcmarkerformat( patient, path, trial ) 
 %formats the csv file to remove decimal places after the frame number and
 %add in a newline after the headers so it is compatible with Opensim.
 markerdata_folder = [path patient '/MarkerData/'];
